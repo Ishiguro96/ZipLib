@@ -29,7 +29,7 @@ target_link_libraries(${LIB_NAME}
 
 target_sources(${LIB_NAME}
         PUBLIC FILE_SET HEADERS
-        BASE_DIRS ${CMAKE_CURRENT_SOURCE_DIR}
+        BASE_DIRS ${CMAKE_CURRENT_SOURCE_DIR}/..
         FILES "${INSTALL_HEADERS}")
 
 install(TARGETS ${LIB_NAME}
